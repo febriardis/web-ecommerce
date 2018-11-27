@@ -61,7 +61,7 @@
 
 	<body>	
 	<!-- Default navbar -->
-	<div class="navbar navbar-default navbar-component" style="border-bottom: 1px solid #80bfff; padding: 15px">
+	<div class="navbar navbar-default navbar-component" style="border:none; padding: 15px">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="">
 				<img src="assets/images/logo.jpg" class="logoSO" alt="">
@@ -85,7 +85,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li>
 					<form class="form-search">
-						<input type="text" name="q" class="in-search" placeholder="Search here..">	
+						<input type="text" name="q" class="in-search" autocomplete="true" placeholder="Search here..">	
 						<button type="submit" style="outline: none; " class="btn-search"><i class="glyphicon glyphicon-search"></i></button>
 						<div class="clear"></div>
 					</form>
@@ -118,7 +118,46 @@
 	<!-- content -->
 
 	<footer>
-		<p>Copyright &copy; 2018 Granada projects.</p>
+		<div class="center-footer">
+			<div class="foot-element capitalize">
+				<h6>shabby organizer</h6>
+				<ul>
+					<li><a href="">bantuan</a></li><br>
+					<li><a href="">syarat & ketentuan</a></li><br>
+					<li><a href="">tentang kami</a></li><br>
+				</ul>
+			</div>
+
+			<div class="foot-element capitalize" >
+				<h6>layanan pelanggan</h6>
+				<ul>
+					<li><a href="">panduan</a></li><br>
+					<li><a href="">pembayaran</a></li><br>
+					<li><a href="">Lacak Pesanan Pembeli</a></li><br>
+					<li><a href="">hubungi kami</a></li><br>
+				</ul>
+			</div>
+			
+			<div style="padding-top: 40px">
+				<div style="margin-left: 100px; float: left;">
+					<img src="assets/images/logo_dark.png" alt="" style="float: left;width:220px; height:35px">
+				</div>
+
+				<div class="foot-element capitalize" style="margin-top: -10px; margin-left: 30px">
+					<h6>Temukan kami di:</h6>
+					<ul>
+						<li><a href=""><img src="/assets/images/brands/facebook.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
+						<li><a href=""><img src="/assets/images/brands/twitter.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
+						<li><a href=""><img src="/assets/images/brands/insta.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
+						<li><a href=""><img src="/assets/images/brands/whatsapp.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div style="border-top:1px solid #cccccc; padding: 20px; text-align: center;">
+			<p>Copyright &copy; 2018 Granada projects.</p>
+		</div>
 	</footer>
 
 	</body>
