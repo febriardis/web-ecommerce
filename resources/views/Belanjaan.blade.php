@@ -7,11 +7,21 @@
 			<div class="panel-body">
 				<div class="tabbable">
 					<ul class="nav nav-tabs nav-tabs-highlight nav-justified">
-						<li class="active"><a href="#highlighted-justified-tab1" class="text-info" data-toggle="tab">Belum Bayar&nbsp;<span class="pop-up">(1)</span></a></li>
-						<li><a href="#highlighted-justified-tab2" class="text-info" data-toggle="tab">Belum Dikirimkan&nbsp;<span class="pop-up">(1)</span></a></li>
-						<li><a href="#highlighted-justified-tab3" class="text-info" data-toggle="tab">Belum Diterima&nbsp;<span class="pop-up">(1)</span></a></li>
-						<li><a href="#highlighted-justified-tab4" class="text-info" data-toggle="tab">Selesai&nbsp;<span class="pop-up">(1)</span></a></li>
-						<li><a href="#highlighted-justified-tab5" class="text-info" data-toggle="tab">Batal&nbsp;<span class="pop-up">(1)</span></a></li>
+						<li class="active">
+							<a href="#highlighted-justified-tab1" style="font-size: 16px;" data-toggle="tab">Belum Bayar <span class="pop-up">(1)</span></a>
+						</li>
+						<li>
+							<a href="#highlighted-justified-tab2" style="font-size: 16px;" data-toggle="tab">Belum Dikirimkan <span class="pop-up">(1)</span></a>
+						</li>
+						<li>
+							<a href="#highlighted-justified-tab3" style="font-size: 16px;" data-toggle="tab">Belum Diterima <span class="pop-up">(1)</span></a>
+						</li>
+						<li>
+							<a href="#highlighted-justified-tab4" style="font-size: 16px;" data-toggle="tab">Selesai <span class="pop-up">(1)</span></a>
+						</li>
+						<li>
+							<a href="#highlighted-justified-tab5" style="font-size: 16px;" data-toggle="tab">Batal <span class="pop-up">(1)</span></a>
+						</li>
 					</ul>
 					
 					<div class="tab-content">
@@ -22,7 +32,7 @@
 								<table class="table">
 									<thead>
 										<tr>
-											<th><h6>Produk Dipesan</h6></th>
+											<th><h6>Produk</h6></th>
 											<th class="text-muted">Harga Satuan</th>
 											<th class="text-muted">Jumlah</th>
 											<th class="text-muted">Subtotal Produk</th>
@@ -57,7 +67,7 @@
 
 									<div style="float: right; margin: 0px 80px 30px 0px">
 										<a href="/info pembayaran" style="margin:0px 3px" class="btn btn-info">Transfer Sekarang</a>
-										<a href="" style="margin:0px 3px" class="btn btn-default">Tampilkan Rincian Pesanan</a>
+										<!-- <a href="/rincian pesanan" style="margin:0px 3px" class="btn btn-default">Tampilkan Rincian Pesanan</a> -->
 										<a href="" onclick="ConfirmDelete()" style="margin:0px 3px" class="btn btn-default">Batalkan Pesanan</a>
 									</div>
 									

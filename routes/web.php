@@ -50,3 +50,7 @@ Route::get('/upload bukti pembayaran', function () {
 Route::get('/belanjaanku', function () {
     return view('belanjaan');
 });
+
+// Route::get('/rincian pesanan', function () {
+//     return view('rincian_pesanan');
+// });

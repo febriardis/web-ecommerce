@@ -133,30 +133,30 @@
 				<ul>
 					<li><a href="">panduan</a></li><br>
 					<li><a href="">pembayaran</a></li><br>
-					<li><a href="">Lacak Pesanan Pembeli</a></li><br>
+					<li><a href="">Lacak Pesanan</a></li><br>
 					<li><a href="">hubungi kami</a></li><br>
 				</ul>
 			</div>
 			
-			<div style="padding-top: 40px">
+			<div style="padding-top: 40px;">
 				<div style="margin-left: 100px; float: left;">
 					<img src="assets/images/logo_dark.png" alt="" style="float: left;width:220px; height:35px">
 				</div>
 
-				<div class="foot-element capitalize" style="margin-top: -10px; margin-left: 30px">
-					<h6>Temukan kami di:</h6>
-					<ul>
-						<li><a href=""><img src="/assets/images/brands/facebook.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
-						<li><a href=""><img src="/assets/images/brands/twitter.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
-						<li><a href=""><img src="/assets/images/brands/insta.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
-						<li><a href=""><img src="/assets/images/brands/whatsapp.png" style="border-radius: 100%; width: 30px;height: 30px; margin: 2px"></a></li>
+				<div class="foot-element" style="margin-top: -10px; margin-left: 30px">
+					<h6>Temukan kami di :</h6>
+					<ul class="contact-us">
+						<li><a href=""><img src="/assets/images/brands/facebook.png"></a></li>
+						<li><a href=""><img src="/assets/images/brands/twitter.png"></a></li>
+						<li><a href=""><img src="/assets/images/brands/insta.png"></a></li>
+						<li><a href=""><img src="/assets/images/brands/whatsapp.png"></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="clear"></div>
-		<div style="border-top:1px solid #cccccc; padding: 20px; text-align: center;">
-			<p>Copyright &copy; 2018 Granada projects.</p>
+		<div class="copyright">
+			<p class="text-muted">Copyright &copy; 2018 Granada projects.</p>
 		</div>
 	</footer>
 

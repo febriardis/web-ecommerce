@@ -32,6 +32,20 @@ footer{
   color: #737373;
 }
 
+.contact-us img{
+  border-radius: 100%; 
+  width: 30px;
+  height: 30px; 
+  margin: 2px
+}
+
+.copyright {
+  border-top:0.5px solid #cccccc;
+  /*background: #fcfcfc; */
+  padding: 20px; 
+  text-align: center;
+}
+
 .clear {
   float: none;
   clear: both;
@@ -521,3 +535,35 @@ h6.trf-bank {
 .pop-up {
   font-size: 14px; color: orangered
 }
+
+a.text-tab {
+  font-size: 16px;
+  color: #ff6600
+}
+/*view INFO PEMABAYARAN---------------------------------------------------*/
+
+
+/*view RINCIAN PEMBELIAN---------------------------------------------------*/
+.panel-wizard-me {
+  border:1px solid black;
+  width: 81.1%;
+  margin: 80px auto;
+}
+
+.panel-wizard-me .wizard-me {
+  border:2px solid black; 
+  width: 90px; 
+  height: 80px; 
+  border-radius: 100%; 
+  padding: 15px; 
+  float: left;
+}
+
+.panel-wizard-me hr {
+  float: left;
+  border:2px solid black; 
+  width: 126px;
+  margin-top: 36px
+}
+
+/*view RINCIAN PEMBELIAN---------------------------------------------------*/
