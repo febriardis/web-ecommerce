@@ -54,3 +54,38 @@ Route::get('/belanjaanku', function () {
 // Route::get('/rincian pesanan', function () {
 //     return view('rincian_pesanan');
 // });
+
+Route::prefix('admin')->group(function(){
+    Route::get('login', function(){
+        return view('views_admin.login_form');
+    });
+
+    Route::get('dashboard', function(){
+        return view('views_admin.dashboard');
+    });
+
+    Route::get('tabel kategori', function(){
+        return view('views_admin.kategori_tabel');
+    });
+
+    Route::get('tambah kategori', function(){
+        return view('views_admin.kategori_tambah');
+    });
+
+    Route::get('edit kategori', function(){
+        return view('views_admin.kategori_edit');
+    });
+
+    Route::get('tabel barang', function(){
+        return view('views_admin.barang_tabel');
+    });
+
+    Route::get('tambah barang', function(){
+        return view('views_admin.barang_tambah');
+    });
+
+    Route::get('edit barang', function(){
+        return view('views_admin.barang_edit');
+    });
+
+});

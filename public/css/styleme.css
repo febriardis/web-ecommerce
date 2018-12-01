@@ -130,10 +130,19 @@ img.logoSO {
   float: left; 
   margin-top:-5px; 
   margin-right: 5px;
-  border-radius: 20px; 
+  border-radius: 100%; 
   width: 30px;  
   height: 30px;
 }
+
+img.logoSOAdmin {
+  float: left; 
+  margin-right: 5px;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
 
 .form-search{
   float: right; 
