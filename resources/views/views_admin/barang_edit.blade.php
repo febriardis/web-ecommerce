@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<h5 class="panel-title">Tambah Data Produk</h5>
+	<h5 class="panel-title">Update Data Produk</h5>
 
 	<form action="" method="">
 		<div class="row">

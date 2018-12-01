@@ -64,16 +64,24 @@ Route::prefix('admin')->group(function(){
         return view('views_admin.dashboard');
     });
 
+    Route::get('tabel pesanan', function(){
+        return view('views_admin.pesanan_tabel');
+    });
+
+    Route::get('tabel pelanggan', function(){
+        return view('views_admin.pelanggan_tabel');
+    });
+
+    Route::get('tabel penjualan', function(){
+        return view('views_admin.penjualan_tabel');
+    });
+
+    Route::get('tabel penilaian', function(){
+        return view('views_admin.penilaian_tabel');
+    });
+
     Route::get('tabel kategori', function(){
         return view('views_admin.kategori_tabel');
-    });
-
-    Route::get('tambah kategori', function(){
-        return view('views_admin.kategori_tambah');
-    });
-
-    Route::get('edit kategori', function(){
-        return view('views_admin.kategori_edit');
     });
 
     Route::get('tabel barang', function(){

@@ -64,7 +64,6 @@
 
 		<div class="navbar-collapse collapse" id="navbar-mobile">
 			<ul class="nav navbar-nav">
-				<li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a></li>
 				<li><a class="navbar-brand" href="javascript:void(0)"><img src="/assets/images/logo_dark.png" alt=""></a></li>
 			</ul>
 
@@ -129,23 +128,18 @@
 								<!-- Main -->
 								<li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
 								<li><a href="/admin/dashboard"><i class="icon-home4"></i><span>Dashboard</span></a></li>
-								<li><a href=""><i class="glyphicon glyphicon-list-alt"></i> <span>Pesanan</span></a></li>
-								<li><a href=""><i class="icon-user-check"></i><span>Pelanggan</span></a></li>
+								<li><a href="/admin/tabel pesanan"><i class="glyphicon glyphicon-list-alt"></i> <span>Pesanan</span></a></li>
+								<li><a href="/admin/tabel pelanggan"><i class="icon-user-check"></i><span>Pelanggan</span></a></li>
+								<li><a href="/admin/tabel kategori"><i class="glyphicon glyphicon-tag"></i> <span>Kategori</span></a></li>
 								<li>
-									<a href=""><i class="glyphicon glyphicon-tag"></i> <span>Kategori</span></a>
-									<ul>
-										<li><a href="/admin/tambah kategori">Tambah Kategori</a></li>
-										<li><a href="/admin/tabel kategori">Data Kategori</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href=""><i class="icon-cart"></i> <span>Produk</span></a>
+									<a href="javascript:void(0)"><i class="icon-cart-add2"></i> <span>Produk</span></a>
 									<ul>
 										<li><a href="/admin/tambah barang">Tambah Produk</a></li>
 										<li><a href="/admin/tabel barang">Data Produk</a></li>
 									</ul>
 								</li>
-								<li><a href=""><i class="icon-file-spreadsheet"></i> <span>Transaksi</span></a></li>
+								<li><a href="/admin/tabel penjualan"><i class="icon-cart2"></i> <span>Penjualan</span></a></li>
+								<li><a href="/admin/tabel penilaian"><i class="icon-stars"></i> <span>Penilaian Produk</span></a></li>
 								<!-- /Main -->
 							</ul>
 						</div>

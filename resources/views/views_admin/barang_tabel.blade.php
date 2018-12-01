@@ -1,4 +1,4 @@
-@extends('layouts.layouts_admin')
+@extends('layouts.layout_admin')
 
 @section('content')
 	<!-- Basic initialization -->
@@ -18,31 +18,26 @@
 				<thead>
 					<tr>
 						<th>No</th>
+						<th>ID Produk</th>
 						<th>Nama Produk</th>
 						<th>Kategori</th>
 						<th>Harga</th>
 						<th>Stok</th>
-						<th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
+						<th class="text-center">Aksi</th>
 					</tr>
 				</thead>
 				<tbody>
 					@for($i=1;$i<=3;$i++)
 					<tr>
 						<td>{{$i}}</td>
+						<td>PSO{{$i}}</td>
 						<td>Lemari</td>
 						<td>Organizer</td>
 						<td>Rp.320.000</td>
 						<td><span class="label label-info">20</span></td>
 						<td class="text-center">
-							<ul class="icons-list">
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-									<ul class="dropdown-menu dropdown-menu-right">
-										<li><a href="#"><i class="icon-eye"></i> Lihat detail</a></li>
-										<li><a href="#"><i class="icon-pencil7"></i> Update</a></li>
-									</ul>
-								</li>
-							</ul>
+							<a href="" class="btn btn-info btn-sm"><i class="icon-pencil7"></i> Update</a>
+							<a href="" class="btn btn-danger btn-sm"><i class="icon-trash"></i> Hapus</a>
 						</td>
 					</tr>
 					@endfor

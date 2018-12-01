@@ -88,6 +88,36 @@
 		</div>
 		<!-- deskripsi produk -->
 		<div class="clear"></div>
+	</div>
+
+	<div class="bg-detail">
+		<div class="panel panel-flat">
+			<div class="panel-heading">
+				<h5 class="panel-title">Penilaian Produk</h5>
+			</div>
+		</div>
+		@for($i=0;$i<=2;$i++)
+		<div class="review-panel">
+			<img src="/assets/images/placeholder.jpg">		
+			<div class="review-coment">			
+				<p>Febri Ardi Saputra</p>
+				<div class="text-nowrap" style="margin-top: -10px">
+					<i class="icon-star-full2 text-size-base text-warning-300"></i>
+					<i class="icon-star-full2 text-size-base text-warning-300"></i>
+					<i class="icon-star-full2 text-size-base text-warning-300"></i>
+					<i class="icon-star-full2 text-size-base text-warning-300"></i>
+					<i class="icon-star-full2 text-size-base text-warning-300"></i>
+				</div>
+				<p style="margin-top: 15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </p>
+				<p class="text-muted">{{date('Y-m-d G:i')}}</p>
+			</div>
+			<div class="clear"></div>
+			<hr>
+			<div class="clear"></div>
+		</div>
+		@endfor
+	</div>
 
 	</div>
 </div>
