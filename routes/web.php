@@ -51,9 +51,8 @@ Route::get('/belanjaanku', function () {
     return view('belanjaan');
 });
 
-// Route::get('/rincian pesanan', function () {
-//     return view('rincian_pesanan');
-// });
+// ===============================ROUTE ADMIN====================================
+
 
 Route::prefix('admin')->group(function(){
     Route::get('login', function(){

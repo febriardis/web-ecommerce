@@ -626,14 +626,15 @@ a.text-tab {
 
 /*rate star*/
 
-fieldset.rating { margin: 0; padding: 0; }
-h1 { font-size: 1.5em; margin: 10px; }
+/*fieldset.rating { margin: 0; padding: 0; }*/
 
 /****** Style untuk rating star *****/
 
 .rating { 
+  text-align: center;
+  width: 57%;
+  margin: 0px auto;
   border: none;
-  float: left;
 }
 
 .rating > input { display: none; } 
@@ -652,7 +653,7 @@ h1 { font-size: 1.5em; margin: 10px; }
 
 .rating > label { 
   color: #ddd; 
- float: right; 
+  float: right;
 }
 
 /***** CSS untuk hover nya *****/
