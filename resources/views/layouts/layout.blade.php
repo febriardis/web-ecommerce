@@ -15,7 +15,8 @@
 		<link href="/assets/css/colors.css" rel="stylesheet" type="text/css">
 		<!-- /global stylesheets -->
 		<link rel="stylesheet" type="text/css" href="/css/styleme.css">
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 		<!-- Core JS files -->
 		<script type="text/javascript" src="/assets/js/plugins/loaders/pace.min.js"></script>
 		<script type="text/javascript" src="/assets/js/core/libraries/jquery.min.js"></script>
@@ -25,7 +26,6 @@
 
 		<!-- Theme JS files -->
 		<script type="text/javascript" src="/assets/js/plugins/ui/prism.min.js"></script>
-		<script type="text/javascript" src="/assets/js/core/app.js"></script>
 		<!-- /theme JS files -->
 
 		<!-- Theme JS files -->
@@ -40,6 +40,9 @@
 		<script type="text/javascript" src="/assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
 		<script type="text/javascript" src="/assets/js/pages/uploader_bootstrap.js"></script>
 		<!-- /theme JS files -->
+		
+		<script type="text/javascript" src="/assets/js/core/app.js"></script>
+		
 
 		<script>
 			function btKurang() {

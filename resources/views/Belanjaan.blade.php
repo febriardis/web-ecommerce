@@ -135,14 +135,15 @@
 
 															<form action="" method="">
 																<div class="modal-body">
-																	<label>Rate :</label>
-																	<div class="text-nowrap">
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																	</div>
+																	<label>Berikan Penilaian:</label><br>
+																	<fieldset class="rating">
+																	    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Sangat Baik"></label>
+																	    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Baik"></label>
+																	    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Standar"></label>
+																	    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kurang Baik"></label>
+																	    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Tidak Baik"></label>
+																	</fieldset>
+																	<div class="clear"></div>
 																	<hr>
 																	<textarea class="form-control" rows="4" placeholder="Tinggalkan pesan"></textarea>
 																</div>

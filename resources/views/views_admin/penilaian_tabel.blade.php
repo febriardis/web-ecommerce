@@ -13,7 +13,7 @@
 					<tr>
 						<th>No</th>
 						<th>ID Pelanggan</th>
-						<th>Barang</th>
+						<th>ID Barang</th>
 						<th>Nilai</th>
 						<th>Pesan</th>
 						<th>Waktu</th>
